@@ -60,7 +60,7 @@
 "id":"jeffersonmotors",
 "name":"Jefferson Motors",
 "description":"Jefferson Motors - Custom American cars",
-"stock": 16,
+"stock": 30,
 "range": [0.5, 0.80, 1.25, 1.5],
 "associatedOrganization":"jeffersonMotors",
 "preview":"jefferson_dealership.jpg",
@@ -124,6 +124,14 @@
   {
   "probability":1,
   "whiteList":{"Mileage":{"min":8800028, "max":264000845},"Config Type":["Custom"],"Brand":["Arima"]}
+  },
+    {
+  "probability":1,
+  "whiteList":{"Mileage":{"min":8800028, "max":264000845},"Brand":["BMW","Nissan","Mercedes","Mercedes-Benz","Ford"]}
+  },
+      {
+  "probability":1,
+  "whiteList":{"Mileage":{"min":8800028, "max":264000845},"Brand": ["KnightRider","Chevrolet"]}
   }
 ],
 "fees": 649,
